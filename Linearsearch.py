@@ -7,4 +7,4 @@ def search(array, key):
 		#if element matches key,return index
 			return i 
 	#else element not found
-    return -1
+    	return -1
