@@ -5,7 +5,7 @@ Clone the forked repository to local system.
 
 Create your feature branch: git checkout -b my-new-feature
 
-Commit your changes: git commit -am 'Add some feature'.
+Commit your changes: `git commit -am 'Add some feature'`
 
 Go through Commit Messages guidelines
 
@@ -30,7 +30,7 @@ If not, proceed and create the issue.
 
 Title of issue should be of the following format -
 
-AlgorithmName
+`AlgorithmName`
 
 # Use a Consistent Coding Style
 Code submitted should be modular.
@@ -48,18 +48,18 @@ A commit message consists of 3 parts:
 
 *quicksort.py Add QuickSort Algorithm
 
-This adds QuickSort Algorithm which return the concatenation of the
+`This adds QuickSort Algorithm which return the concatenation of the
 quicksorted list of elements that are less than or equal to the pivot, the
-pivot, and the quicksorted list of elements that are greater than the pivot.
+pivot, and the quicksorted list of elements that are greater than the pivot.`
 
 Closes https://github.com/aneels3/Algorithm/issues/2
 
 # Commit Body
 Example:
 
-This adds QuickSort Algorithm which return the concatenation of the
+`This adds QuickSort Algorithm which return the concatenation of the
 quicksorted list of elements that are less than or equal to the pivot, the
 pivot, and the quicksorted list of elements that are greater than the pivot.
-Maximum of 72 chars excluding newline for each line.
+Maximum of 72 chars excluding newline for each line.`
 
 
