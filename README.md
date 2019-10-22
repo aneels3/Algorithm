@@ -1,3 +1,3 @@
 # Python_Algorithm
 1. This repository is for python algorithm.
-2. Add any algorithmic python code.
+2. Use proper code format.
