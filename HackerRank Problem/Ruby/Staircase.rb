@@ -16,5 +16,4 @@ def print_matrix(arr, spaces = 0)
 end
 
 n = gets.to_i
-
 staircase n
