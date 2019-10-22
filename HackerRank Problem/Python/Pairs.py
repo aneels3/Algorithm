@@ -17,13 +17,13 @@ def pairs(k, arr):
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    nk = raw_input().split()
+    '''nk = raw_input().split()
 
     n = int(nk[0])
 
     k = int(nk[1])
 
-    arr = map(int, raw_input().rstrip().split())
+    arr = map(int, raw_input().rstrip().split())'''
 
     result = pairs(k, arr)
 
