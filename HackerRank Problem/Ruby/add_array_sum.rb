@@ -1,5 +1,5 @@
 # Simple add numbers of array
-# Paste the test function in irb and call test
+# Paste the test function in irb and call sum_array_numbers function
 
 def sum_array_numbers
   puts "Enter array of numbers EG: 1.12 123.12 1 134"
