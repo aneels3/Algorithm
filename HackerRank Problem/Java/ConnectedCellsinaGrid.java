@@ -1,11 +1,8 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-
 public class Solution {
-    
     private static int rows; 
     private static int cols; 
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         rows = scan.nextInt();
@@ -18,8 +15,7 @@ public class Solution {
         }
         scan.close();
         System.out.println(largestRegion(grid));
-    }
-    
+    }    
     public static int largestRegion(int [][] grid) {
         int maxRegion = 0;
         for (int row = 0; row < rows; row++) {
@@ -31,8 +27,7 @@ public class Solution {
             }
         }
         return maxRegion;
-    }
-    
+    }    
     private static int findLargestRegion(int [][] grid, int row, int col) {
         if (row < 0 || row >= rows || col < 0 || col >= cols) {
             return 0;
