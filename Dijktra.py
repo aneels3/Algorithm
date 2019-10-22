@@ -1,6 +1,4 @@
 # Dijktra's shortest path algorithm. Prints the path from source to target.
- 
- 
 def dijkstra(adj, source, target):
     INF = ((1<<63) - 1)//2
     pred = { x:x for x in adj }
