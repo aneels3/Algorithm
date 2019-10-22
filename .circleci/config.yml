@@ -9,6 +9,6 @@ workflows:
             - flow
           filters:
             branches:
-              only: master
+              only: /*/
             tags:
               only: /v.*/
