@@ -37,15 +37,12 @@ Explanation
 There are 3 pairs of integers in the set with a difference of 2: [5,3], [4,2] and [3,1] .
 '''
 
-#!/bin/python
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the pairs function below.
 def pairs(k, arr):
     d = {}
     answer = 0
@@ -72,5 +69,3 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
-
-#Passed all test cases!! Yay!!
