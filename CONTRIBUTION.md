@@ -62,4 +62,13 @@ quicksorted list of elements that are less than or equal to the pivot, the
 pivot, and the quicksorted list of elements that are greater than the pivot.
 Maximum of 72 chars excluding newline for each line.`
 
+# PR
+
+For HackerRank issue-
+
+PR name should be like this--> [HackerRank] Problem Name 
+
+For Other Issue
+
+PR name should be like this--> [Other] Problem Name
 
