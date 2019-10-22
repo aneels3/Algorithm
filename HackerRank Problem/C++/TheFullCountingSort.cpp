@@ -32,7 +32,6 @@ int main()
     getline(cin, n_temp);
     int n = stoi(ltrim(rtrim(n_temp)));
     vector<vector<string>> arr(n);
-
     for (int i = 0; i < n; i++) {
         arr[i].resize(2);
         string arr_row_temp_temp;
