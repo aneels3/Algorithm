@@ -1,17 +1,15 @@
 #!/bin/python3
 
-import math
 import os
-import random
-import re
-import sys
+
 
 # Complete the aVeryBigSum function below.
 def aVeryBigSum(ar):
     b = 0
-    for i in range (0,ar_count):
+    for i in range(0, ar_count):
         b = b+ar[i]
     return b
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
