@@ -1,15 +1,24 @@
-# Simple add numbers of array
-# Paste the test function in irb and call sum_array_numbers function
+#!/bin/ruby
 
-def simpleArraySum(numbers)
-  num = numbers.split(" ")
-  num.inject(0) { |sum, i| sum + i.to_i }
+#
+# Complete the simpleArraySum function below.
+#
+def simpleArraySum(ar)
+    #
+    # Write your code here.
+    #
+    ar.reduce(&:+)
 end
 
 fptr = File.open(ENV['OUTPUT_PATH'], 'w')
+
 ar_count = gets.to_i
-ar = gets.rstrip
-result = simpleArraySum(ar)
+
+ar = gets.rstrip.split(' ').map(&:to_i)
+
+result = simpleArraySum ar
+
 fptr.write result
 fptr.write "\n"
+
 fptr.close()
