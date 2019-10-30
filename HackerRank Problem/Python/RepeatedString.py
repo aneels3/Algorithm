@@ -13,4 +13,4 @@ c2=0
 for i in st:
     if i=="a":
         c2+=1
-print(count*(n//len(s))+c2)
+print(c1*(n//len(s))+c2)
