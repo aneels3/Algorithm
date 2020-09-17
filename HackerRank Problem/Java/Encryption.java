@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 
 public class Encryption {
@@ -21,7 +19,6 @@ public class Encryption {
             }
         }
         int k = 0;
-
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if (k < s.length()) {
@@ -30,21 +27,15 @@ public class Encryption {
                 }
             }
         }
-        
-
-          
-        for(int i=0;i<col;i++){
-            for(int j=0;j<row;j++){
-                if(ch[j][i] == '*'){
+        for (int i = 0; i < col; i++) {
+            for (int j = 0; j < row; j++) {
+                if (ch[j][i] == '*') {
                     ;
-                }
-                else{
+                } else {
                     System.out.print(ch[j][i]);
                 }
-                
             }
-              System.out.print(" ");  
+            System.out.print(" ");
         }
-
     }
 }
